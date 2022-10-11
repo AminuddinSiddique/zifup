@@ -1,0 +1,80 @@
+.sign-up-main-div {
+    background: rgb(21, 29, 48);
+    background: linear-gradient(127deg,
+            rgba(21, 29, 48, 1) 0%,
+            rgba(25, 32, 35, 1) 35%,
+            rgba(4, 59, 100, 1) 100%);
+    background-color: #101825;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.sign-up-div {
+    position: relative;
+    background-color: rgb(16, 24, 37);
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 2rem 10rem;
+    top: 15rem;
+    color: black;
+    border-radius: 12px;
+    background: #E1EFE6;
+}
+
+.sign-up-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sign-up-form {
+    margin: 2rem auto;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    border-bottom: 1px solid white;
+
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 6px 12px;
+}
+
+input:active {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.sign-up-submit {
+    display: block;
+    background-color: rgb(21, 100, 116);
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin: 1rem auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sign-up-submit:hover {
+    background-color: transparent;
+    color: rgb(21, 100, 116);
+    border: 1px solid rgb(21, 100, 116);
+}
